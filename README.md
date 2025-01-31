@@ -12,16 +12,18 @@ Architecture Overview:
 The project follows a robust architecture leveraging various AWS services, ensuring that the application is highly available, secure, and scalable.
 
 Key Components:
-Virtual Private Cloud (VPC): Provides a secure, isolated network environment for the application.
-Internet Gateway: Allows communication between the instances and the internet.
-Security Groups: Ensures tight security by controlling inbound and outbound traffic.
-Auto Scaling Group: Scales EC2 instances up and down to handle varying traffic loads.
-Application Load Balancer: Distributes incoming traffic to multiple instances to balance the load.
-Route 53: DNS service for routing traffic efficiently.
-S3 Bucket: Stores static assets like images, CSS, and Terraform state files.
-Amazon RDS: Provides a highly available and scalable relational database service.
-AWS Certificate Manager (ACM): Manages SSL/TLS certificates for secure communication.
+- Virtual Private Cloud (VPC): Provides a secure, isolated network environment for the application.
+- Internet Gateway: Allows communication between the instances and the internet.
+- Security Groups: Ensures tight security by controlling inbound and outbound traffic.
+- Auto Scaling Group: Scales EC2 instances up and down to handle varying traffic loads.
+- Application Load Balancer: Distributes incoming traffic to multiple instances to balance the load.
+- Route 53: DNS service for routing traffic efficiently.
+- S3 Bucket: Stores static assets like images, CSS, and Terraform state files.
+- Amazon RDS: Provides a highly available and scalable relational database service.
+- AWS Certificate Manager (ACM): Manages SSL/TLS certificates for secure communication.
+
 How to Run:
+
 Clone this repository to your local machine:
 
 git clone https://github.com/dushf12/Dynamic_Web_App.git
