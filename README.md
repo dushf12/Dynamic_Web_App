@@ -3,11 +3,11 @@ Dynamic Web Application
 This project is a Dynamic Web Application deployed on AWS, showcasing the integration of various AWS services for a secure, scalable, and highly available web infrastructure. The application uses Terraform for Infrastructure as Code (IaC), enabling seamless automation and management of AWS resources.
 
 Key Features:
-Highly Scalable: Uses Auto Scaling to ensure that the application can scale based on demand.
-High Availability: Deployed across multiple Availability Zones to ensure fault tolerance.
-Secure: Implements VPC, Security Groups, and AWS Certificate Manager for secure communication.
-Efficient Traffic Distribution: Utilizes Application Load Balancer for distributing traffic across instances.
-Automation: Deployed and managed using Terraform for Infrastructure as Code.
+- Highly Scalable: Uses Auto Scaling to ensure that the application can scale based on demand.
+- High Availability: Deployed across multiple Availability Zones to ensure fault tolerance.
+- Secure: Implements VPC, Security Groups, and AWS Certificate Manager for secure communication.
+- Efficient Traffic Distribution: Utilizes Application Load Balancer for distributing traffic across instances.
+- Automation: Deployed and managed using Terraform for Infrastructure as Code.
 Architecture Overview:
 The project follows a robust architecture leveraging various AWS services, ensuring that the application is highly available, secure, and scalable.
 
@@ -24,21 +24,17 @@ AWS Certificate Manager (ACM): Manages SSL/TLS certificates for secure communica
 How to Run:
 Clone this repository to your local machine:
 
-bash
-Copy
-Edit
 git clone https://github.com/dushf12/Dynamic_Web_App.git
+
 Follow the setup instructions for Terraform and AWS services in the setup_instructions.md (if applicable).
 
 Deploy the infrastructure with Terraform:
 
-bash
-Copy
-Edit
-terraform init
-terraform plan
-terraform apply
-After deployment, you can access the dynamic web application via the provided URL from AWS Route 53.
+terraform init,
+terraform plan,
+terraform apply,
+
+
 
 Architecture Diagram:
 Here’s the visual representation of the architecture used in the project. It provides an overview of how the different AWS services integrate together to form a highly available and scalable solution.
